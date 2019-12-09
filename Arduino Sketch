@@ -1,0 +1,309 @@
+
+int ANAKIN = 9;
+int OBIWAN = 10; 
+int val = 255;
+int trumpets = 8;
+int trumpdelay = (100);
+int melody = 7;
+int melodyDelay = (400);
+int quickDelay = (250);
+
+
+void setup() {
+   pinMode(ANAKIN, OUTPUT);
+   pinMode(OBIWAN, OUTPUT);
+   pinMode(trumpets, OUTPUT);
+   pinMode(melody, OUTPUT);
+  analogWrite(OBIWAN, val-255);
+  analogWrite(OBIWAN, val-255);
+  delay(200);
+  analogWrite(OBIWAN, val/6);
+  delay(1800);
+  analogWrite(ANAKIN, val/6);
+  delay(1500);
+
+  
+
+  digitalWrite (trumpets, HIGH); //1
+delay(trumpdelay);
+digitalWrite (trumpets, LOW);
+delay(trumpdelay);
+digitalWrite (trumpets, HIGH);//2
+delay(trumpdelay);
+saberhit();
+  delay(quickDelay);
+  saberhit();
+  delay(quickDelay);
+  saberhit();
+  delay(quickDelay);
+  saberhit();
+  delay(quickDelay);
+  saberhit();
+  delay(quickDelay);
+  saberhit();
+digitalWrite (trumpets, LOW);
+delay(trumpdelay);
+digitalWrite (trumpets, HIGH);//3
+delay(trumpdelay);
+digitalWrite (trumpets, LOW);
+delay(trumpdelay/2);
+digitalWrite (trumpets, HIGH);//4
+delay(trumpdelay/2);
+digitalWrite (trumpets, LOW);
+delay(trumpdelay/2);
+digitalWrite (trumpets, HIGH);//5
+delay(trumpdelay/2);
+digitalWrite (trumpets, LOW);
+delay(trumpdelay/2);
+digitalWrite (trumpets, HIGH);//6
+delay(trumpdelay/2);
+digitalWrite (trumpets, LOW);
+delay(trumpdelay/2);
+digitalWrite (trumpets, HIGH);//7
+delay(trumpdelay/2);
+digitalWrite (trumpets, LOW);
+delay(trumpdelay/2);
+digitalWrite (trumpets, HIGH);//8
+delay(trumpdelay/2);
+digitalWrite (trumpets, LOW);
+delay(trumpdelay/2);
+digitalWrite (trumpets, HIGH);//9
+delay(trumpdelay/2);
+digitalWrite (trumpets, LOW);
+delay(trumpdelay);
+digitalWrite (trumpets, HIGH);//10
+delay(trumpdelay);
+digitalWrite (trumpets, LOW);
+delay(trumpdelay);
+digitalWrite (trumpets, HIGH);//11
+delay(trumpdelay);
+digitalWrite (trumpets, LOW);
+delay(1000);
+//-------------------------------------------1 time
+ digitalWrite (trumpets, HIGH); //1
+delay(trumpdelay);
+digitalWrite (trumpets, LOW);
+delay(trumpdelay);
+digitalWrite (trumpets, HIGH);//2
+delay(trumpdelay);
+digitalWrite (trumpets, LOW);
+delay(trumpdelay);
+digitalWrite (trumpets, HIGH);//3
+delay(trumpdelay);
+digitalWrite (trumpets, LOW);
+delay(trumpdelay/2);
+digitalWrite (trumpets, HIGH);//4
+delay(trumpdelay/2);
+digitalWrite (trumpets, LOW);
+delay(trumpdelay/2);
+digitalWrite (trumpets, HIGH);//5
+delay(trumpdelay/2);
+digitalWrite (trumpets, LOW);
+delay(trumpdelay/2);
+digitalWrite (trumpets, HIGH);//6
+delay(trumpdelay/2);
+digitalWrite (trumpets, LOW);
+delay(trumpdelay/2);
+digitalWrite (trumpets, HIGH);//7
+delay(trumpdelay/2);
+digitalWrite (trumpets, LOW);
+delay(trumpdelay/2);
+digitalWrite (trumpets, HIGH);//8
+delay(trumpdelay/2);
+digitalWrite (trumpets, LOW);
+delay(trumpdelay/2);
+digitalWrite (trumpets, HIGH);//9
+delay(trumpdelay/2);
+digitalWrite (trumpets, LOW);
+delay(trumpdelay);
+digitalWrite (trumpets, HIGH);//10
+delay(trumpdelay);
+digitalWrite (trumpets, LOW);
+delay(trumpdelay);
+digitalWrite (trumpets, HIGH);//11
+delay(trumpdelay);
+digitalWrite (trumpets, LOW);
+delay(1000);
+//-------------------------------------------2 times
+digitalWrite (trumpets, HIGH); //1
+delay(trumpdelay);
+digitalWrite (trumpets, LOW);
+delay(trumpdelay);
+digitalWrite (trumpets, HIGH);//2
+delay(trumpdelay);
+digitalWrite (trumpets, LOW);
+delay(trumpdelay);
+digitalWrite (trumpets, HIGH);//3
+delay(trumpdelay);
+digitalWrite (trumpets, LOW);
+delay(trumpdelay/2);
+digitalWrite (trumpets, HIGH);//4
+delay(trumpdelay/2);
+digitalWrite (trumpets, LOW);
+delay(trumpdelay/2);
+digitalWrite (trumpets, HIGH);//5
+delay(trumpdelay/2);
+digitalWrite (trumpets, LOW);
+delay(trumpdelay/2);
+digitalWrite (trumpets, HIGH);//6
+delay(trumpdelay/2);
+digitalWrite (trumpets, LOW);
+delay(trumpdelay/2);
+digitalWrite (trumpets, HIGH);//7
+delay(trumpdelay/2);
+digitalWrite (trumpets, LOW);
+delay(trumpdelay/2);
+digitalWrite (trumpets, HIGH);//8
+delay(trumpdelay/2);
+digitalWrite (trumpets, LOW);
+delay(trumpdelay/2);
+digitalWrite (trumpets, HIGH);//9
+delay(trumpdelay/2);
+digitalWrite (trumpets, LOW);
+delay(trumpdelay);
+digitalWrite (trumpets, HIGH);//10
+delay(trumpdelay);
+digitalWrite (trumpets, LOW);
+delay(trumpdelay);
+digitalWrite (trumpets, HIGH);//11
+delay(trumpdelay);
+digitalWrite (trumpets, LOW);
+delay(1000);
+//-----------------------------------------------------------3 times
+ digitalWrite( melody, HIGH);//1
+delay (melodyDelay/2);
+digitalWrite( melody, LOW);
+delay (melodyDelay);
+digitalWrite( melody, HIGH);//2
+delay (melodyDelay/2);
+digitalWrite( melody, LOW);
+delay (melodyDelay/2);
+digitalWrite( melody, HIGH);//3
+delay (melodyDelay/2);
+digitalWrite( melody, LOW);
+delay (melodyDelay);
+digitalWrite( melody, HIGH);//4
+delay (melodyDelay/2);
+digitalWrite( melody, LOW);
+delay (melodyDelay);
+digitalWrite( melody, HIGH);//5
+delay (melodyDelay/2);
+digitalWrite( melody, LOW);
+delay (melodyDelay);
+digitalWrite( melody, HIGH);//6
+delay (melodyDelay/2);
+digitalWrite( melody, LOW);
+delay (melodyDelay);
+digitalWrite( melody, HIGH);//7
+delay (melodyDelay/2);
+digitalWrite( melody, LOW);
+delay (melodyDelay);
+digitalWrite( melody, HIGH);//8
+delay (melodyDelay*1.75);
+digitalWrite( melody, LOW);
+delay (melodyDelay);
+digitalWrite( melody, HIGH);//9
+delay (melodyDelay/2);
+digitalWrite( melody, LOW);
+
+
+digitalWrite (trumpets, HIGH); //1
+delay(trumpdelay);
+digitalWrite (trumpets, LOW);
+delay(trumpdelay);
+digitalWrite (trumpets, HIGH);//2
+delay(trumpdelay);
+digitalWrite (trumpets, LOW);
+delay(trumpdelay);
+digitalWrite (trumpets, HIGH);//3
+delay(trumpdelay);
+digitalWrite (trumpets, LOW);
+delay(trumpdelay/2);
+digitalWrite (trumpets, HIGH);//4
+delay(trumpdelay/2);
+digitalWrite (trumpets, LOW);
+delay(trumpdelay/2);
+digitalWrite (trumpets, HIGH);//5
+delay(trumpdelay/2);
+digitalWrite (trumpets, LOW);
+delay(trumpdelay/2);
+digitalWrite (trumpets, HIGH);//6
+delay(trumpdelay/2);
+digitalWrite (trumpets, LOW);
+delay(trumpdelay/2);
+digitalWrite (trumpets, HIGH);//7
+delay(trumpdelay/2);
+digitalWrite (trumpets, LOW);
+delay(trumpdelay/2);
+digitalWrite (trumpets, HIGH);//8
+delay(trumpdelay/2);
+digitalWrite (trumpets, LOW);
+delay(trumpdelay/2);
+digitalWrite (trumpets, HIGH);//9
+delay(trumpdelay/2);
+digitalWrite (trumpets, LOW);
+delay(trumpdelay);
+digitalWrite (trumpets, HIGH);//10
+delay(trumpdelay);
+digitalWrite (trumpets, LOW);
+delay(trumpdelay);
+digitalWrite (trumpets, HIGH);//11
+delay(trumpdelay);
+digitalWrite (trumpets, LOW);
+delay(1000);
+
+digitalWrite( melody, HIGH);//1
+delay (melodyDelay/2);
+digitalWrite( melody, LOW);
+delay (melodyDelay);
+digitalWrite( melody, HIGH);//2
+delay (melodyDelay/2);
+digitalWrite( melody, LOW);
+delay (melodyDelay/2);
+digitalWrite( melody, HIGH);//3
+delay (melodyDelay/2);
+digitalWrite( melody, LOW);
+delay (melodyDelay);
+digitalWrite( melody, HIGH);//4
+delay (melodyDelay/2);
+digitalWrite( melody, LOW);
+delay (melodyDelay);
+digitalWrite( melody, HIGH);//5
+delay (melodyDelay/2);
+digitalWrite( melody, LOW);
+delay (melodyDelay);
+digitalWrite( melody, HIGH);//6
+delay (melodyDelay/2);
+digitalWrite( melody, LOW);
+delay (melodyDelay);
+digitalWrite( melody, HIGH);//7
+delay (melodyDelay/2);
+digitalWrite( melody, LOW);
+delay (melodyDelay);
+digitalWrite( melody, HIGH);//8
+delay (melodyDelay*1.75);
+digitalWrite( melody, LOW);
+delay (melodyDelay);
+digitalWrite( melody, HIGH);//9
+delay (melodyDelay/2);
+digitalWrite( melody, LOW);
+  
+  
+//-----------------------------------------------------------------------------------------
+   
+//----------------------------------------
+}
+ void saberhit()
+ {
+  analogWrite(ANAKIN,val);
+  analogWrite(OBIWAN,val);
+  delay(100);
+  analogWrite(OBIWAN,val/6);
+  analogWrite(ANAKIN,val/6);
+  
+ }
+ 
+
+void loop() {
+
+}
